@@ -1,0 +1,115 @@
+2025-08-25 12:52:40,457 loading vocabulary file ./models/finbert\vocab.txt
+2025-08-25 12:52:40,487 loading archive file ./models/finbert
+2025-08-25 12:52:40,489 Model config {
+  "_name_or_path": "/home/ubuntu/finbert/models/language_model/finbertTRC2",
+  "architectures": [
+    "BertForSequenceClassification"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "positive",
+    "1": "negative",
+    "2": "neutral"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "negative": 1,
+    "neutral": 2,
+    "positive": 0
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "type_vocab_size": 2,
+  "vocab_size": 30522
+}
+
+2025-08-25 12:52:45,483 Weights from pretrained model not used in BertModel: ['bert.embeddings.position_ids']
+2025-08-25 12:52:45,488 Initialization Done !!
+2025-08-25 13:00:17,968 Taking last layer embedding of each word.
+2025-08-25 13:00:17,968 Mean of all words for sentence embedding.
+2025-08-25 13:00:18,517 Shape of Sentence Embeddings = 768
+2025-08-25 13:00:18,534 AFC is enabled with max remote calls: 10.
+2025-08-25 13:00:20,745 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:00:20,764 AFC remote call 1 is done.
+2025-08-25 13:00:50,415 Taking last layer embedding of each word.
+2025-08-25 13:00:50,415 Mean of all words for sentence embedding.
+2025-08-25 13:00:50,566 Shape of Sentence Embeddings = 768
+2025-08-25 13:00:50,566 AFC is enabled with max remote calls: 10.
+2025-08-25 13:00:53,312 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:00:53,313 AFC remote call 1 is done.
+2025-08-25 13:01:03,847 Taking last layer embedding of each word.
+2025-08-25 13:01:03,847 Mean of all words for sentence embedding.
+2025-08-25 13:01:03,959 Shape of Sentence Embeddings = 768
+2025-08-25 13:01:03,959 AFC is enabled with max remote calls: 10.
+2025-08-25 13:01:06,515 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:01:06,517 AFC remote call 1 is done.
+2025-08-25 13:02:08,810 Taking last layer embedding of each word.
+2025-08-25 13:02:08,810 Mean of all words for sentence embedding.
+2025-08-25 13:02:08,918 Shape of Sentence Embeddings = 768
+2025-08-25 13:02:08,918 AFC is enabled with max remote calls: 10.
+2025-08-25 13:02:11,418 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:02:11,425 AFC remote call 1 is done.
+2025-08-25 13:02:37,630 Taking last layer embedding of each word.
+2025-08-25 13:02:37,631 Mean of all words for sentence embedding.
+2025-08-25 13:02:37,732 Shape of Sentence Embeddings = 768
+2025-08-25 13:02:37,733 AFC is enabled with max remote calls: 10.
+2025-08-25 13:02:40,955 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:02:40,956 AFC remote call 1 is done.
+2025-08-25 13:06:44,003 Taking last layer embedding of each word.
+2025-08-25 13:06:44,003 Mean of all words for sentence embedding.
+2025-08-25 13:06:44,104 Shape of Sentence Embeddings = 768
+2025-08-25 13:06:44,105 AFC is enabled with max remote calls: 10.
+2025-08-25 13:06:47,757 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:06:47,759 AFC remote call 1 is done.
+2025-08-25 13:07:04,769 Taking last layer embedding of each word.
+2025-08-25 13:07:04,769 Mean of all words for sentence embedding.
+2025-08-25 13:07:04,873 Shape of Sentence Embeddings = 768
+2025-08-25 13:07:04,874 AFC is enabled with max remote calls: 10.
+2025-08-25 13:07:07,900 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:07:07,904 AFC remote call 1 is done.
+2025-08-25 13:11:45,433 Taking last layer embedding of each word.
+2025-08-25 13:11:45,433 Mean of all words for sentence embedding.
+2025-08-25 13:11:45,570 Shape of Sentence Embeddings = 768
+2025-08-25 13:11:45,571 AFC is enabled with max remote calls: 10.
+2025-08-25 13:11:51,892 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:11:51,897 AFC remote call 1 is done.
+2025-08-25 13:13:01,434 Taking last layer embedding of each word.
+2025-08-25 13:13:01,434 Mean of all words for sentence embedding.
+2025-08-25 13:13:01,568 Shape of Sentence Embeddings = 768
+2025-08-25 13:13:01,569 AFC is enabled with max remote calls: 10.
+2025-08-25 13:13:04,698 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:13:04,705 AFC remote call 1 is done.
+2025-08-25 13:13:14,338 Taking last layer embedding of each word.
+2025-08-25 13:13:14,338 Mean of all words for sentence embedding.
+2025-08-25 13:13:14,473 Shape of Sentence Embeddings = 768
+2025-08-25 13:13:14,474 AFC is enabled with max remote calls: 10.
+2025-08-25 13:13:17,600 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:13:17,607 AFC remote call 1 is done.
+2025-08-25 13:13:27,607 Taking last layer embedding of each word.
+2025-08-25 13:13:27,607 Mean of all words for sentence embedding.
+2025-08-25 13:13:27,710 Shape of Sentence Embeddings = 768
+2025-08-25 13:13:27,711 AFC is enabled with max remote calls: 10.
+2025-08-25 13:13:32,960 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:13:32,968 AFC remote call 1 is done.
+2025-08-25 13:14:44,370 Taking last layer embedding of each word.
+2025-08-25 13:14:44,372 Mean of all words for sentence embedding.
+2025-08-25 13:14:44,547 Shape of Sentence Embeddings = 768
+2025-08-25 13:14:44,548 AFC is enabled with max remote calls: 10.
+2025-08-25 13:14:49,651 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:14:49,659 AFC remote call 1 is done.
+2025-08-25 13:15:13,289 Taking last layer embedding of each word.
+2025-08-25 13:15:13,289 Mean of all words for sentence embedding.
+2025-08-25 13:15:13,427 Shape of Sentence Embeddings = 768
+2025-08-25 13:15:13,427 AFC is enabled with max remote calls: 10.
+2025-08-25 13:15:16,897 HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-08-25 13:15:16,986 AFC remote call 1 is done.

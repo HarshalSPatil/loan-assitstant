@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+requests
+beautifulsoup4
+playwright
+schedule
+openai
+faiss-cpu
+streamlit
+python-dotenv
+numpy
+openai==0.28
+python-dotenv
+finbert-embedding
+google-genai
